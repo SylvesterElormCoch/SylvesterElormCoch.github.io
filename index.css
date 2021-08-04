@@ -1,41 +1,35 @@
 body {
-    padding: 4.5rem;
     margin: auto;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .card {
-    width: 400px;
-    height: auto;
-    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
     border-radius: 1rem;
-    background: rgba(225, 235, 236, 0.15);
     box-shadow: 0 0 20px 8px #d0d0d0;
     cursor: pointer;
-    left: 50%;
-    top:50%;
 }
 
 .card-header {
-    margin-top:0;
-    margin-bottom: .5rem;
-    font-size: 1.4rem;
+    font-size: 10vw;
     text-align: center;
-    font-weight: 770;
+    margin-bottom: 0;
 }
 
 .card-content {
-    font-size: 1rem;
-    padding: 15px;
+    border-radius: 2vw;
+    font-size: 8vw;
+    padding: 1.5rem;
+    padding-top: 5px;
+    margin: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
-
-p, a {
-    font-size: 1rem;
-}
-
 
 a {
     color: #ffffff;
@@ -45,10 +39,12 @@ a {
 
 button {
     background: rgba(80, 43, 216, 0.848);
-    padding: .5rem;
+    padding: 1rem;
     border: none;
     border-radius: .3rem;
-    margin-top: 0.6rem;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    max-width: fit-content;
 }
 
 @media (color-gamut: srgb) {
