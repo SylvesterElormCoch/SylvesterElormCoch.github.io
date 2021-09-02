@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #d1d1d1;
 }
 
 .card {
@@ -14,6 +15,7 @@ body {
     border-radius: 1rem;
     box-shadow: 0 0 20px 8px #d0d0d0;
     cursor: pointer;
+    background-color: white;
 }
 
 .card-header {
